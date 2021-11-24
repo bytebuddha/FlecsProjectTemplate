@@ -17,4 +17,5 @@ INCLUDE_FILES = $(wildcard \
     $(SOURCEDIR)/core/*.h \
 		$(SOURCEDIR)/systems/*.h \
 		$(SOURCEDIR)/components/*.h \
+		$(SOURCEDIR)/resources/*.h \
 )
