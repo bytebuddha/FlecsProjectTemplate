@@ -2,7 +2,7 @@ SOURCEDIR = source
 TARGETDIR = target
 VENDORDIR = vendor
 
-BIN_NAME = Salient
+BIN_NAME = FlecsProjectTemplate
 
 CFLAGS += -Wall -ldl -std=c99 -lpthread -lm -lglfw
 
