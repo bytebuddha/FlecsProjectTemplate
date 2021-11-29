@@ -4,7 +4,7 @@ VENDORDIR = vendor
 
 BIN_NAME = FlecsProjectTemplate
 
-CFLAGS += -Wall -ldl -std=c99 -lpthread -lm -lglfw
+CFLAGS += -Wall -ldl -std=c99 -lpthread -lm
 
 SOURCE_FILES += $(wildcard \
     $(SOURCEDIR)/*.c \
