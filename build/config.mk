@@ -11,6 +11,7 @@ SOURCE_FILES += $(wildcard \
 		$(SOURCEDIR)/core/*.c \
 		$(SOURCEDIR)/systems/*.c \
 		$(SOURCEDIR)/components/*.c \
+                $(SOURCEDIR)/resources/*.c \
 )
 
 INCLUDE_FILES = $(wildcard \
