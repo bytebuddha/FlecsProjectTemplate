@@ -21,7 +21,6 @@ void runGame(void) {
     while(running) {
       running = ecs_progress(world, 0.0);
       if (!started && time > 1) {
-//        _start_game();
         started = true;
       }
     }
