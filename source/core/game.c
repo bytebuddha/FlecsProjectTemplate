@@ -1,5 +1,4 @@
 #include <flecs.h>
-#include <raylib.h>
 #include "systems.h"
 #include "components.h"
 #include "resources.h"
@@ -10,9 +9,9 @@ static ecs_world_t *world = NULL;
 
 void initializeGame(void) {
     world = ecs_init();
+    initializeResources(world);
     initializeComponents(world);
     initializeSystems(world);
-    initializeResources(world);
 }
 
 void runGame(void) {
