@@ -3,6 +3,5 @@
 
 void initializeGame(void);
 void runGame(void);
-void initializeRaylib(void);
 
 #endif
